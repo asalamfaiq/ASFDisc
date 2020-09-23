@@ -1,6 +1,8 @@
 public class OddEven{
     public static void main(String[] args) {
-        int num=3;
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a number, or if you want to stop the execution enter -1: ");
+        int num= input.nextInt();
         while(num!=-1){
             if(oddEven(num)==1)
                 System.out.println("The number is Even" );
