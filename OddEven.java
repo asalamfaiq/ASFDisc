@@ -17,7 +17,7 @@ public class OddEven{
         }
     }
     public static int oddEven(int y){
-        int m = y%2==0 ? 1 : 0;
+        int m = y%2==0  ? 1 : 0;
         return  m;
     }
 }
